@@ -29,23 +29,40 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Name="one" Grid.Column="0" Grid.Row="1" Content="1" HorizontalAlignment="Center" />
-            <Button Name="two" Grid.Column="1" Grid.Row="1" Content="2" HorizontalAlignment="Center"/>
-            <Button Name="three" Grid.Column="2" Grid.Row="1" Content="3" HorizontalAlignment="Center" />
-            <Button Name="four" Grid.Column="0" Grid.Row="2" Content="4" HorizontalAlignment="Center" />
-            <Button Name="five" Grid.Column="1" Grid.Row="2" Content="5" HorizontalAlignment="Center" />
-            <Button Name="six" Grid.Column="2" Grid.Row="2" Content="6" HorizontalAlignment="Center" />
-            <Button Name="seven" Grid.Column="0" Grid.Row="3" Content="7" HorizontalAlignment="Center" />
-            <Button Name="eight" Grid.Column="1" Grid.Row="3" Content="8" HorizontalAlignment="Center" />
-            <Button Name="nine" Grid.Column="2" Grid.Row="3" Content="9" HorizontalAlignment="Center" />
-            <Button Name="zero" Grid.Column="1" Grid.Row="4" Content="0" HorizontalAlignment="Center"/>
-            <Button Name="add" Grid.Column="3" Grid.Row="3" Content="+" HorizontalAlignment="Center" />
-            <Button Name="minus" Grid.Column="3" Grid.Row="2" Content="-" HorizontalAlignment="Center" />
-            <Button Name="mul" Grid.Column="3" Grid.Row="1" Content="X" HorizontalAlignment="Center" />
-            <Button Name="div" Grid.Column="3" Grid.Row="0" Content="/" HorizontalAlignment="Center" />
-            <Button Name="dot" Grid.Column="2" Grid.Row="4" Content="." HorizontalAlignment="Center" />
-            <Button Name="del" Grid.Column="2" Grid.Row="0" Content="删除" HorizontalAlignment="Center"/>
-            <Button Name="count" Grid.Column="3" Grid.Row="4" Content="=" HorizontalAlignment="Center"/>
+            <Button Name="one" Grid.Column="0" Grid.Row="1" Content="1"
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="two" Grid.Column="1" Grid.Row="1" Content="2" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="three" Grid.Column="2" Grid.Row="1" Content="3" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="four" Grid.Column="0" Grid.Row="2" Content="4" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="five" Grid.Column="1" Grid.Row="2" Content="5" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="six" Grid.Column="2" Grid.Row="2" Content="6"
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="seven" Grid.Column="0" Grid.Row="3" Content="7" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="eight" Grid.Column="1" Grid.Row="3" Content="8"
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="nine" Grid.Column="2" Grid.Row="3" Content="9" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="zero" Grid.Column="1" Grid.Row="4" Content="0" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="add" Grid.Column="3" Grid.Row="3" Content="+" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="minus" Grid.Column="3" Grid.Row="2" Content="-"
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="mul" Grid.Column="3" Grid.Row="1" Content="X"  
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="div" Grid.Column="3" Grid.Row="0" Content="/" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="dot" Grid.Column="2" Grid.Row="4" Content="." 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Button Name="del" Grid.Column="2" Grid.Row="0" Content="删除"  
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="count" Grid.Column="3" Grid.Row="4" Content="=" 
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </Grid>
     </Grid>
   
