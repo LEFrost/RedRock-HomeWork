@@ -25,6 +25,20 @@ namespace HomeWork
         public MainPage()
         {
             this.InitializeComponent();
+            
+        }
+        public void myAdd(Button x)
+        {
+            expression.Text = (expression.Text + x.Content).ToString();
+        }
+        private void one_Click(object sender, RoutedEventArgs e)
+        {
+            myAdd(one);
+        }
+
+        private void del_Click(object sender, RoutedEventArgs e)
+        {
+            expression.Text = expression.Text.Remove(expression.Text.Count() - 1);
         }
     }
 }

@@ -13,7 +13,7 @@
             <RowDefinition Height="1.5*"/>
             <RowDefinition Height="4*"/>
         </Grid.RowDefinitions>
-        <TextBlock Name="expression" Grid.Row="0" FontSize="20"  VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+        <TextBlock Name="expression"  Grid.Row="0" FontSize="20"  VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
         <TextBlock Name="input" Grid.Row="1" FontSize="30"  VerticalAlignment="Top" HorizontalAlignment="Right"/>
         <Grid Grid.Row="2">
             <Grid.RowDefinitions>
@@ -30,7 +30,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Button Name="one" Grid.Column="0" Grid.Row="1" Content="1"
-                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="one_Click"/>
             <Button Name="two" Grid.Column="1" Grid.Row="1" Content="2" 
                     Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
             <Button Name="three" Grid.Column="2" Grid.Row="1" Content="3" 
@@ -59,8 +59,8 @@
                     Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
             <Button Name="dot" Grid.Column="2" Grid.Row="4" Content="." 
                     Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
-            <Button Name="del" Grid.Column="2" Grid.Row="0" Content="删除"  
-                    Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button Name="del" Grid.Column="2" Grid.Row="0" Content="Back"  
+                    Background="White" FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="del_Click"/>
             <Button Name="count" Grid.Column="3" Grid.Row="4" Content="=" 
                     Background="White" FontSize="35" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </Grid>
