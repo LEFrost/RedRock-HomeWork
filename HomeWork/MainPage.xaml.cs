@@ -29,7 +29,7 @@ namespace HomeWork
         }
         public void myAdd(Button x)
         {
-            expression.Text = (expression.Text + x.Content).ToString();
+            Input.Text = (Input.Text + x.Content).ToString();
         }
         private void one_Click(object sender, RoutedEventArgs e)
         {
@@ -38,7 +38,10 @@ namespace HomeWork
 
         private void del_Click(object sender, RoutedEventArgs e)
         {
-            expression.Text = expression.Text.Remove(expression.Text.Count() - 1);
+            if (Input.Text.Count() != 0 && Input.Text!=0.ToString())
+                Input.Text = Input.Text.Remove(Input.Text.Count() - 1);
+            else
+                Input.Text = 0.ToString();
         }
     }
 }
